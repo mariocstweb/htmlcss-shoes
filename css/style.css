@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  /* da effetto scorrimento passando da un href all altro */
+  overflow-y: hidden;
+  /* elimina la barra di scorrimento asse Y */
+}
+
 body {
   font-family: "Rubik Mono One", sans-serif;
 }
@@ -57,13 +64,14 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-size: 3rem;
-  font-size: bolder;
 }
 
+/* Immagine Fluida */
 img {
   max-width: 100%;
   display: block;
 }
+
 /* Text Color */
 .color-y {
   color: #ffff00;
@@ -72,6 +80,7 @@ img {
 .color-grn {
   color: #008000;
 }
+
 /* ---Background Color------ */
 
 .bgc-red {
